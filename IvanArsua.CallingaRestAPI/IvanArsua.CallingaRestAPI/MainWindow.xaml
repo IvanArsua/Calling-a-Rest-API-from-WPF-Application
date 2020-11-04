@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IvanArsua.CallingaRestAPI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1176.875">
     <Grid>
-        
+        <Label x:Name="lblPostID" Content="Label" HorizontalAlignment="Left" Height="41" Margin="21,23,0,0" VerticalAlignment="Top" Width="312"/>
+        <Label x:Name="lblId" Content="Label" HorizontalAlignment="Left" Height="41" Margin="21,82,0,0" VerticalAlignment="Top" Width="312"/>
+        <Label x:Name="lblname" Content="Label" HorizontalAlignment="Left" Height="41" Margin="21,145,0,0" VerticalAlignment="Top" Width="312"/>
+        <Label x:Name="lblEmail" Content="Label" HorizontalAlignment="Left" Height="41" Margin="21,208,0,0" VerticalAlignment="Top" Width="312"/>
+        <Label x:Name="lblBody" Content="Label" HorizontalAlignment="Left" Height="41" Margin="21,264,0,0" VerticalAlignment="Top" Width="916"/>
+        <Button x:Name="btnClickMe" Content="Comments" HorizontalAlignment="Left" Height="48" Margin="58,338,0,0" VerticalAlignment="Top" Width="252" Click="btnClickMe_Click"/>
+
     </Grid>
 </Window>
